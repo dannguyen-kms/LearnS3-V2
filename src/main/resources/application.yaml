@@ -1,0 +1,14 @@
+
+application:
+  bucket:
+    name: learns3withsdk
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 20MB
+      max-request-size: 100MB
+server:
+  port: 9090
